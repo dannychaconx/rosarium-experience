@@ -56,7 +56,7 @@ Build the guided prayer experience:
 
 - Display mystery of the day
 - Load prayer text dynamically from JSON
-- Show one step at a time
+- Show exactly one prayer step per screen state
 - Include:
   - Back button
   - Next button
