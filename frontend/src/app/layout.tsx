@@ -20,7 +20,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className={`${cormorant.className} h-full antialiased`}>
+    <html lang="es" className={`${cormorant.className} h-full antialiased`}>
       <body className="min-h-full flex flex-col bg-stone-50 text-stone-800">
         {children}
       </body>

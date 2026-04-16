@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import LanguageToggle from "./LanguageToggle";
 import RoseIcon from "./RoseIcon";
 import landingContent from "../content/landing.json";
@@ -11,6 +11,10 @@ export default function LandingPage() {
   const [language, setLanguage] = useState<Language>("es");
 
   const content = landingContent[language];
+
+  useEffect(() => {
+    document.documentElement.lang = language;
+  }, [language]);
 
   return (
     <div className="flex min-h-dvh flex-col items-center justify-center px-6">
