@@ -1,0 +1,20 @@
+{
+  "en": {
+    "title": "A rose can become a prayer",
+    "subtitle": "Turn this moment into a guided prayer",
+    "startButton": "Start Prayer",
+    "languageToggle": {
+      "en": "English",
+      "es": "Español"
+    }
+  },
+  "es": {
+    "title": "Una rosa puede convertirse en oración",
+    "subtitle": "Convierte este momento en una oración guiada",
+    "startButton": "Iniciar Oración",
+    "languageToggle": {
+      "en": "English",
+      "es": "Español"
+    }
+  }
+}
